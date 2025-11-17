@@ -1,0 +1,6 @@
+//togle class active
+const navbarNav = document.querySelector('.navbar-nav');
+//ketika humbergur menu di clik
+document.querySelector('#hamburger-menu').onclick = () => {
+    navbarNav-classlist.toggle('active');
+};
