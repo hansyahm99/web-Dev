@@ -176,8 +176,17 @@ body{
         </div>
     </nav>
     <!--navbar end-->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Enjoy Your<span>Coffee</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, iusto?</p>
+            <a href="#" class="cta">Buy Now</a>
+        </main>
+    </section>
 
     <!--hero section start-->
+
+
     <!--hero section start-->
 
     <!---feather icon---> 
@@ -196,8 +205,9 @@ body{
         navbarNav.classList.toggle('active');
     };
     </script>
-    // klik di luar sidebar untuk menghilangkan hamburger nav
+    
     <script>
+    //klik di luar sidebar untuk menghilangkan hamburger nav
         const hamburger = document.querySelector('#hamburger-menu');
 
         document.addEventListener('click', function (e) {
